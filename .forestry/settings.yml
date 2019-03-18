@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: G-FX Digital web studi
 - type: directory
   path: catalog
   label: Каталог
