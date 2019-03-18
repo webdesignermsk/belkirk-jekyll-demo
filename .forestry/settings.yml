@@ -43,11 +43,11 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-upload_dir: files
-public_path: "/files"
+upload_dir: catalog
+public_path: "/assets"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":year:/:month:/:day:/:filename:"
+use_front_matter_path: true
+file_template: ":post:/:filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
